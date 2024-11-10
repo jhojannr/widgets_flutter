@@ -22,12 +22,13 @@ class _HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
+    return ListView.separated(
       itemCount: appMenuItems.length,
       itemBuilder: (context, index) {
         final menuItem = appMenuItems[index];
         return _CustomListTile(menuItem: menuItem);
       },
+      separatorBuilder: (__, index) => const Divider(),
     );
   }
 }
