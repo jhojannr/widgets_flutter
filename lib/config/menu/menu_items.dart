@@ -57,4 +57,16 @@ const appMenuItems = <MenuItems>[
     link: '/tutorial',
     icon: Icons.accessible_rounded,
   ),
+  MenuItems(
+    title: 'Infinite Scroll',
+    subTitle: 'Pequeño tutorial de Infinite Scroll',
+    link: '/infinite',
+    icon: Icons.list_alt,
+  ),
+  MenuItems(
+    title: 'Counter App',
+    subTitle: 'Aplicación de Contador',
+    link: '/counter',
+    icon: Icons.add,
+  ),
 ];
