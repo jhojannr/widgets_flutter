@@ -69,4 +69,16 @@ const appMenuItems = <MenuItems>[
     link: '/counter',
     icon: Icons.add,
   ),
+  MenuItems(
+    title: 'Theme Changer',
+    subTitle: 'Theme Changer',
+    link: '/theme',
+    icon: Icons.theater_comedy,
+  ),
+  MenuItems(
+    title: 'Alerts',
+    subTitle: 'Alerts Screen',
+    link: '/alerts',
+    icon: Icons.info,
+  ),
 ];
